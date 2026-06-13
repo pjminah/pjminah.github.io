@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="games.ico" type="image/x-icon">
+</head>
+<body class="faleconosco">
+
+    <header>
+        <div class="logo">
+            <h1>🎮 Portal de Jogos</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="/SITEDEJOGO.html">Início</a></li>
+                <li class="menu-item" id="categorias">
+                    Categorias
+                <ul class="submenu" id="submenu">
+                <li><a href="/categorias/a%C3%A7ao.html">Ação</a></li>
+                <li><a href="/categorias/aventura.html">Aventura</a></li>
+                <li><a href="/categorias/esporte.html">Esporte</a></li>
+                <li><a href="/categorias/rpg.html">RPG</a></li>
+                <li><a href="/categorias/corrida.html">Corrida</a></li>
+                <li><a href="/categorias/terror.html">Terror</a></li>
+            </ul>
+                </li>
+                <li><a href="/favorito.html">Favoritos</a></li>
+                <li><a href="/contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contato">
+        <h2>Nos siga nas redes sociais ou envie um e-mail!</h2>
+        <form id="formContato" name="formulario">
+           
+           
+           <label for="nome">Nome Completo:</label><br>
+           <input type="text" id="nome" name="nome" required>
+           <br><label for="email">E-mail:</label><br>
+           <input type="email" name="email" required>
+            <br><label>Escreva sua mensagem!</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="40" maxlength="50" required></textarea>
+        
+             <br><input type="submit" value="ENVIAR MENSAGEM 🎮">
+            
+        </form>
+            
+        
+    <br>
+        <a href="https://www.instagram.com/cosmosvsaliens/" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width:30px;height:30px;"></a>
+    <a href="https://x.com/cosmosvsaliens/" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/X_icon.svg/960px-X_icon.svg.png" alt="Instagram" style="width:30px;height:30px;"></a>
+        
+    </section>
+    
+    <img src="https://deadbydaylight.com/static/57467dbd8c49b9983ba369ba74c25652/0784f/DBD_Killer_Ghostface_only_1702579267.png" class="imgcanto" alt="Ghostface">    
+    
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("DP6cOgpPrxdXZiayB");
+        })();
+    </script>
+    <script src="javas.js"></script>
+    </body>
+</html>

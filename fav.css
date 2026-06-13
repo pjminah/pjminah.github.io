@@ -1,0 +1,77 @@
+        body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#0f0f0f;
+            color:white;
+        }
+
+        .fav-container{
+            width:90%;
+            max-width:1200px;
+            margin:40px auto;
+        }
+
+        .fav-container h2{
+            text-align:center;
+            margin-bottom:30px;
+            font-size:32px;
+            color:#00ffff;
+        }
+
+        .fav-lista{
+            display:grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap:20px;
+        }
+
+        .fav-card{
+            background:#1b1b1b;
+            border-radius:10px;
+            overflow:hidden;
+            transition:0.3s;
+            border:2px solid transparent;
+        }
+
+        .fav-card:hover{
+            transform:scale(1.03);
+            border:2px solid #00ffff;
+        }
+
+        .fav-card a{
+            text-decoration:none;
+            color:white;
+        }
+
+        .fav-card img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+        }
+
+        .fav-info{
+            padding:15px;
+            text-align:center;
+        }
+
+        .fav-info h3{
+            margin:10px 0;
+            color:#00ffff;
+        }
+
+        .posicao{
+            font-size:20px;
+            font-weight:bold;
+            color:gold;
+        }
+
+        @media(max-width:1000px){
+            .fav-lista{
+                grid-template-columns: repeat(2,1fr);
+            }
+        }
+
+        @media(max-width:600px){
+            .fav-lista{
+                grid-template-columns:1fr;
+            }
+        }

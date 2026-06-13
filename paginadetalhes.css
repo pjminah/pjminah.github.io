@@ -1,0 +1,74 @@
+.paginas {
+    background: linear-gradient(135deg, #0f0f1a, #1a1a2e);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo {
+    max-width: 1100px;
+    margin: 50px auto;
+    display: flex;
+    gap: 34px;
+    padding: 20px;
+    align-items: center;
+}
+
+.conteudo img,
+.video {
+    width: 758px;
+    border-radius: 15px;
+}
+
+.video {
+    box-shadow: 0 0 25px var(--cor);
+}
+
+.sobre .titulo {
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: var(--cor);
+}
+
+.sobre p, .sobre ul {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.sobre ul li {
+    margin-bottom: -11px;
+}
+
+.botaodecompra {
+    display: inline-block;
+    padding: 10px 3px;
+    background-color: var(--cor);
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.eldenring { --cor: #c9a227; }
+.residentevil { --cor: #f11d20; }
+.dbd { --cor: #f97913; }
+.alicemad { --cor: #7f13f3; }
+.mario { --cor: #f8ff00; }
+.fifa { --cor: #088a37; }
+.fortnite { --cor: #d908ef; }
+.cod { --cor: #666d6e; }
+.gta { --cor: #e5e25d; }
+.apex { --cor: #e95804; }
+
+
+
+@media (max-width: 900px) {
+    .jogos,
+    .caterogias ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}

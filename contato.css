@@ -1,0 +1,116 @@
+body.faleconosco {
+    background: radial-gradient(circle at top, #0f0f1a, #05050a);
+}
+
+header {
+    position: relative;
+    z-index: 1000;
+}
+
+.submenu {
+    position: absolute;
+    z-index: 2000;
+}
+
+.contato {
+	position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.contato h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #26d0eb;
+    text-shadow: 0 0 10px #00bfff;
+    text-align: center;
+}
+
+#formContato {
+    width: 100%;
+    max-width: 500px;
+    background: rgba(10, 10, 25, 0.85);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #26d0eb;
+    box-shadow: 0 0 20px #00bfff;
+}
+
+
+#formContato label {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#formContato input,
+#formContato textarea {
+    width: 95%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #26d0eb;
+    background: #0f0f1a;
+    color: #ffffff;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+#formContato input:focus,
+#formContato textarea:focus {
+    border-color: #26d0eb;
+    box-shadow: 0 0 10px #00bfff;
+}
+
+#formContato input[type="submit"] {
+    background: #26d0eb;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+#formContato input[type="submit"] {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 60%;
+    max-width: 250px;
+    background: #26d0eb;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+#formContato input[type="submit"]:hover {
+    background: #750bd7;
+    box-shadow: 0 0 15px #b444f4;
+}
+
+.contato img {
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.contato img:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 6px #26d0eb);
+}
+
+.imgcanto {
+    position: fixed;
+	z-index: -1;
+    bottom: 0;
+    right: 0;
+    width: 730px;
+    opacity: 0.8;
+	pointer-events: none;
+}
